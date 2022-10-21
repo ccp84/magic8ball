@@ -1,13 +1,13 @@
 import random
 
 name = input("What's your name?:\n ")
-question = input("Ask a yes or no question:\n")
+question = input("\nAsk a yes or no question:\n")
 answer = ''
 
 random_number = random.randint(1, 9)
 
 if random_number == 1:
-    answer = 'Yes desinitely.'
+    answer = 'Yes definitely.'
 elif random_number == 2:
     answer = 'It is decidedly so.'
 elif random_number == 3:
@@ -27,5 +27,4 @@ elif random_number == 9:
 else:
     answer = 'Error'
 
-print(f"{name} asks: {question}")
-print(f"Magic 8-Ball's answer: {answer}")
+print(f"\nMagic 8-Ball's answer: {answer}")
